@@ -58,7 +58,6 @@ def can_import(module_name):
     except ImportError:
         return False
 
-
 DOTENV_EXTENSIONS = os.getenv("DOTENV_EXTENSIONS", "").split(" ")
 
 # Command line arguments extension
